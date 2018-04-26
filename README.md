@@ -2,12 +2,6 @@
 ---
 This library is an adaptation of [RecyclerView.Adapter](http://developer.android.com/intl/pt-br/reference/android/support/v7/widget/RecyclerView.Adapter.html) that uses a [CursorAdapter](http://developer.android.com/intl/pt-br/reference/android/widget/CursorAdapter.html) as its underlying data source. The benefit of this is that it now you can populate your RecyclerView with a [CursorLoader](http://developer.android.com/intl/pt-br/reference/android/content/CursorLoader.html), something that was previously only possible using a CursorAdapter and ListView.
 
-### Usage
----
-To add the library to your project, just include the following dependency in your build.gradle file:
-```java
-compile 'com.androidessence:recyclerviewcursoradapter:1.0.0'
-```
 
 ### Implementation
 ---
@@ -25,6 +19,3 @@ Currently there is support to easily control a RecyclerViewCursorAdapter that us
 ---
 Inspiration for this library came from a beautiful [StackOverflow answer](http://stackoverflow.com/a/27732748/3131147) by user [nbtk](http://stackoverflow.com/users/1371730/nbtk).
 
-### Contributors
----
-[Adam McNeilly](http://github.com/AdamMc331)
